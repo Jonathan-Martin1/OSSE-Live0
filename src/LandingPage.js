@@ -11,7 +11,7 @@ import {
   // useHistory,
   // useRouteMatch,
 } from 'react-router-dom'
-import LandingPageContent from './components/LandingPageContent'
+import LandingPageContent from './Components/LandingPageContent'
 import Contact from './views/Contact/Contact'
 import Overview from './views/Overview/Overview'
 

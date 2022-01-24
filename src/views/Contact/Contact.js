@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
-import ContactForm from '../../components/ContactForm'
+import ContactForm from '../../Components/ContactForm'
 
 export default function Contact() {
   return (
