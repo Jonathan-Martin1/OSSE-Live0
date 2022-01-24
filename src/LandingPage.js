@@ -1,22 +1,22 @@
-import React, { useState } from 'react';
-import { Button, Nav, Navbar } from 'react-bootstrap';
-import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse';
-import ReviewPage from './views/ReviewPage/ReviewPage';
-import LoginOut from './views/Login/LoginAndOut';
-import RegistrationForm from './views/Register/RegistrationForm';
+import React, { useState } from 'react'
+import { Button, Nav, Navbar } from 'react-bootstrap'
+import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse'
+import ReviewPage from './views/ReviewPage/ReviewPage'
+import LoginOut from './views/Login/LoginAndOut'
+import RegistrationForm from './views/Register/RegistrationForm'
 import {
   Link,
   Route,
   Switch,
   // useHistory,
   // useRouteMatch,
-} from 'react-router-dom';
-import LandingPageContent from './Components/LandingPageContent';
-import Contact from './views/Contact/Contact';
-import Overview from './views/Overview/Overview';
+} from 'react-router-dom'
+import LandingPageContent from './components/LandingPageContent'
+import Contact from './views/Contact/Contact'
+import Overview from './views/Overview/Overview'
 
 export default function LandingPage() {
-  const [loggedIn, setLoggedIn] = useState(false);
+  const [loggedIn, setLoggedIn] = useState(false)
 
   return (
     <div className='borb'>
@@ -105,5 +105,5 @@ export default function LandingPage() {
         </Route>
       </Switch>
     </div>
-  );
+  )
 }

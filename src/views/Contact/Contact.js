@@ -1,6 +1,6 @@
-import React from 'react';
-import { Container } from 'react-bootstrap';
-import ContactForm from '../../Components/ContactForm';
+import React from 'react'
+import { Container } from 'react-bootstrap'
+import ContactForm from '../../components/ContactForm'
 
 export default function Contact() {
   return (
@@ -17,5 +17,5 @@ export default function Contact() {
         <ContactForm />
       </div>
     </Container>
-  );
+  )
 }
